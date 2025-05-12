@@ -1,5 +1,5 @@
-# Pod
----
+# Pod + svc
+````
 apiVersion: v1
 kind: Pod
 metadata:
@@ -25,4 +25,4 @@ spec:
     port: 80
     targetPort: 80
   type: ClusterIP
-  ---
+````
